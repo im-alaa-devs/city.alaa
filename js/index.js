@@ -8,12 +8,12 @@ buttons.forEach((btn, index) => {
 
     btn.addEventListener("click", () => {
 
-    
+        // Hide all cities
         cities.forEach((city) => {
             city.style.display = "none";
         });
 
-
+        // Show selected city
         cities[index].style.display = "block";
 
     });
